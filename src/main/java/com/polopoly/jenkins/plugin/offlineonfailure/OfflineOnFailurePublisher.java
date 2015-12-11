@@ -52,7 +52,7 @@ public class OfflineOnFailurePublisher
 
     public BuildStepMonitor getRequiredMonitorService()
     {
-        return BuildStepMonitor.BUILD;
+        return BuildStepMonitor.NONE;
     }
 
     /*
